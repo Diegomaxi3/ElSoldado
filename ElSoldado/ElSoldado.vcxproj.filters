@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Modelo">
+      <UniqueIdentifier>{9cb84e12-f054-44ea-a290-efac0bd1f980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{95cb8fe2-ff7f-4b58-9f75-440c59ae5942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentador">
+      <UniqueIdentifier>{e058bbb5-fe4c-4f3b-a59d-f86809a6473a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modelo\Encabezados">
+      <UniqueIdentifier>{9163f745-bb73-4d07-81dd-62cabba126ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modelo\Encabezados\Armas">
+      <UniqueIdentifier>{64963b45-8dc7-4ecc-8c7c-283ae2e58ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views\Encabezado">
+      <UniqueIdentifier>{9e352cfb-8b8e-46ef-b1ae-72582c6a1830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentador\encabezados">
+      <UniqueIdentifier>{3d65d9e4-08b6-472f-a7f6-d2ef7e84083a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enumeradores">
+      <UniqueIdentifier>{26ec58c7-7d77-440d-968e-a261a6639d8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IArma.h">
+      <Filter>Modelo\Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldado.h">
+      <Filter>Modelo\Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="Escopeta.h">
+      <Filter>Modelo\Encabezados\Armas</Filter>
+    </ClInclude>
+    <ClInclude Include="Revolver.h">
+      <Filter>Modelo\Encabezados\Armas</Filter>
+    </ClInclude>
+    <ClInclude Include="Rifle.h">
+      <Filter>Modelo\Encabezados\Armas</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentador.h">
+      <Filter>Presentador\encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Views\Encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Views\Encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumArmas.h">
+      <Filter>Enumeradores</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentador.cpp">
+      <Filter>Presentador</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
